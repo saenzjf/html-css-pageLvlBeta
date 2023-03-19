@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: blue;
+    background-color: aqua;
+}
+
+#parrafo2{
+    background-color: goldenrod;
+}
+
+.destacado{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   text-align: justify;
+   background-color: tomato; 
+   color: white;
+}
+
+
+#fijo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.pagina{
+    background-image: url('../img/fashion.jpg'); /*Ruta relativa*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#nombre{
+    color: white;
+    font-size: 60px;
+    font-family: fantasy;
+    /*background-color: #5c6bc0;*/
+    /*background-color: rgb(red, green, blue);*/
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+#subtitulo{
+    color: yellowgreen;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    /*margin-left: 100px;*/  /*Esto es para mover a la derecha */ 
+}
+
+#correo{
+    background-color: tomato;
+    /*display: block;*/
+}
+
+/*Aquí detallo el CSS de mi pagina de contacto.html */
+.titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /*text-align: center;*/
+
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Detallo el CSS del Formulario*/
+/*Un elemento en bloque, posee: largo - ancho -relleno - borde - margen*/
+.cajaFormulario{
+    background-color: rgba(122, 200, 130, 0.3);
+    width: 30%;    /*Unidades de medidas en css:  px - em - rem  - % */
+    height: 540px;
+    /*padding: arriba - abajo - izquierda - derecha;*/
+    padding: 20px;
+    border: red 5px double;
+    /*margin: arriba - abajo - izquierda - derecha ;*/
+    margin-left: 240px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
